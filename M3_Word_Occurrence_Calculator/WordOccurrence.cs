@@ -9,9 +9,8 @@ namespace M3_Word_Occurrence_Calculator
     class WordOccurrence
     {
 
-        private String Word { get; set; }
-        private int Count { get; set; }
-
+        public string Word { get; set; }
+        public int Count { get; set; }
 
     }
 }
