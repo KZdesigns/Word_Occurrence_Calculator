@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M3_Word_Occurrence_Calculator
 {
-    class WordCalculator
+    public class WordCalculator
     {
 
         public static List<WordOccurrence> CalculateOccurrences(List<string> sList)
