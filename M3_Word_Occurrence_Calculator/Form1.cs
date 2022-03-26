@@ -28,12 +28,7 @@ namespace M3_Word_Occurrence_Calculator
                 // establish output string.
                 string output = "";
 
-                // check if input is blank.
-                if(inputString == "")
-                {
-                    throw new ArgumentException("Invalid input.");
-                }
-
+               
                 // create a list using the input string.
                 List<string> words = new List<string>(inputString.Split(' '));
 

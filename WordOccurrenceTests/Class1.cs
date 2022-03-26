@@ -32,5 +32,11 @@ namespace WordOccurrenceTests
             Assert.AreEqual(expected[0].Word, actual[0].Word, "Invalid Word returned.");
             Assert.AreEqual(expected[0].Count, actual[0].Count, "Invalid Count returned.");
         }
+
+        [Test]
+        public void CalculateOccurrencesShouldThrowException()
+        {
+            Assert.Throws<ArgumentException>(() => { WordCalculator.CalculateOccurrences(null); });
+        }
     }
 }

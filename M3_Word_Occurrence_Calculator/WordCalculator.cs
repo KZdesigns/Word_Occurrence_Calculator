@@ -12,7 +12,7 @@ namespace M3_Word_Occurrence_Calculator
         public static List<WordOccurrence> CalculateOccurrences(List<string> sList)
         {
             // check if sList is null throw arguement exception. 
-            if(sList == null)
+            if(sList == null || sList[0] == "")
             {
                 throw new ArgumentException("Invalid input.");
             }
